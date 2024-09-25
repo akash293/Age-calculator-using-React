@@ -1,0 +1,56 @@
+body{
+  background-color:#7E56F4
+}
+
+.card{
+  width: 70%;
+  height: auto;
+  padding: 50px;
+  background-color:white;
+  margin: 200px;
+  border-radius: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1{
+  color:black;
+  font-weight: bold;
+}
+
+.button {
+  position: relative;
+  background-color:#7D56F1;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 20%;
+
+ 
+}
+
+.form {
+  position: relative;
+  justify-content: center;
+  padding: 12px 15px; 
+  margin: 15px auto; 
+  width: 85%; 
+  flex-direction: column;
+  display: flex;
+  border-radius: 8px;
+  border: 2px solid #FFFEFF; 
+  background-color:#EFEEFE; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-size: 16px; 
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.form:focus {
+  border-color: black; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  outline: none;
+}
